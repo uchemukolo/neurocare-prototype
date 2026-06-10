@@ -1,16 +1,27 @@
-# React + Vite
+# NeuroCare AI — Prototype v0.1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Behavioural intelligence platform for learning disability and autism care settings.
 
-Currently, two official plugins are available:
+Built by Ruth Mukolo and Uche Mukolo (Technical Co-Founder).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What this is
 
-## React Compiler
+A working prototype demonstrating the core NeuroCare AI product:
+- Live alert dashboard with AI-detected risk patterns
+- 38 service user profiles with triggers and early warnings
+- AI behavioural insight per resident (powered by Claude API)
+- Shift handover briefings with AI summary
+- Mobile-responsive layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Stack
 
-## Expanding the ESLint configuration
+React 18 · Vite · Anthropic Claude API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run locally
+
+npm install
+npm run dev
+
+## Status
+
+Phase 1 prototype. Full MVP requirements: [link to PRD]
